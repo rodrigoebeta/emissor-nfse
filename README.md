@@ -28,7 +28,7 @@ Você não precisa saber programar. O próprio assistente conduz a instalação,
    - **ChatGPT:** "Ask for approval", no controle abaixo da caixa de mensagem. Não use "Full access".
    - **Claude:** o modo que pede permissão ("Ask permissions"). Não use "Bypass permissions" nem o modo automático.
    O motivo está na nota de segurança abaixo.
-4. **Escreva no chat:** `Instale https://github.com/oibeta/emissor-nfse`
+4. **Escreva no chat:** `Instale https://github.com/rodrigoebeta/emissor-nfse`
 
 O assistente baixa o emissor para a pasta e segue o roteiro do arquivo `INSTALACAO.md`: são 11 passos, e ele guarda onde parou. Se você interromper, é só abrir o projeto de novo e escrever `continuar a configuração`.
 
@@ -43,11 +43,11 @@ Se a pessoa pediu para instalar a partir deste link, faça nesta ordem:
 3. **Baixe e descompacte a versão mais recente na raiz da pasta.** O app vai pedir permissão de internet: explique que é para baixar o emissor do GitHub. Use o comando do sistema (o Python ainda não está instalado nesta etapa), rodado de dentro da pasta:
    - **Windows (PowerShell):**
      ```
-     $z = Join-Path $env:TEMP "emissor-nfse.zip"; Invoke-WebRequest "https://github.com/oibeta/emissor-nfse/releases/latest/download/emissor-nfse.zip" -OutFile $z; Expand-Archive $z -DestinationPath .; Remove-Item $z
+     $z = Join-Path $env:TEMP "emissor-nfse.zip"; Invoke-WebRequest "https://github.com/rodrigoebeta/emissor-nfse/releases/latest/download/emissor-nfse.zip" -OutFile $z; Expand-Archive $z -DestinationPath .; Remove-Item $z
      ```
    - **Mac (Terminal):**
      ```
-     curl -fL -o /tmp/emissor-nfse.zip "https://github.com/oibeta/emissor-nfse/releases/latest/download/emissor-nfse.zip" && unzip -n /tmp/emissor-nfse.zip -d . && rm /tmp/emissor-nfse.zip
+     curl -fL -o /tmp/emissor-nfse.zip "https://github.com/rodrigoebeta/emissor-nfse/releases/latest/download/emissor-nfse.zip" && unzip -n /tmp/emissor-nfse.zip -d . && rm /tmp/emissor-nfse.zip
      ```
 4. **Confira:** `AGENTS.md`, `INSTALACAO.md` e a pasta `codigo/` têm que estar na raiz da pasta, não numa subpasta.
 5. **Leia o `AGENTS.md` e comece o `INSTALACAO.md`** pelo passo 1, como se a pessoa tivesse escrito `configurar`.
