@@ -1,4 +1,4 @@
-# Emissor de NFS-e: regras para o agente (ChatGPT ou Claude)
+# Emissor de NFS-e: regras para o agente
 
 Este projeto emite NFS-e pelo Sistema Nacional (API SEFIN Nacional) a partir de pedidos que chegam no Gmail. Nota fiscal não tem desfazer. Na dúvida, pare e pergunte.
 

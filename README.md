@@ -1,4 +1,4 @@
-# Emissor de NFS-e com ChatGPT ou Claude
+# Emissor de NFS-e
 
 O assistente de IA lê os pedidos de nota fiscal que chegam no seu Gmail, organiza numa fila, mostra os dados para você conferir e, com o seu ok, emite a NFS-e pelo Sistema Nacional (o Emissor Nacional do gov.br). Ele também gera o PDF da nota e responde ao cliente.
 
