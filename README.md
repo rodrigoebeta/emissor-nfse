@@ -2,8 +2,6 @@
 
 O assistente de IA lê os pedidos de nota fiscal que chegam no seu Gmail, organiza numa fila, mostra os dados para você conferir e, com o seu ok, emite a NFS-e pelo Sistema Nacional (o Emissor Nacional do gov.br). Ele também gera o PDF da nota e responde ao cliente.
 
-Funciona no **app do ChatGPT** ou no **app do Claude**, para computador. O programa da emissão é o mesmo nos dois.
-
 Você não precisa saber programar. O próprio assistente conduz a instalação, passo a passo, e explica cada coisa.
 
 > **Aviso.** Este projeto é distribuído como está, sem garantia. Ele não substitui a sua contabilidade: os códigos de serviço, o regime e a alíquota da sua empresa são responsabilidade sua e de quem faz a sua contabilidade. Nota fiscal emitida não tem desfazer. Use por sua conta e risco (ver `LICENSE`).
